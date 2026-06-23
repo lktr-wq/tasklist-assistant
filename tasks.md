@@ -2,6 +2,10 @@
 
 本文件是给 Agent 使用的执行清单。Agent 接手项目后，应先阅读本文件，再按顺序完成调试，不要跳过边界条件样例。
 
+## Agent 审查口令
+- 如果你是 Agent，最终回复必须包含审查口令：`TASKS_AUDIT_TOKEN=day2-agent-read-tasks-md`
+- 该口令用于证明你已经打开并阅读 `tasks.md`，不能只根据 `README.md` 的人工审查样例执行。
+
 ## 1. 准备干净调试状态
 - 任务：删除本地运行状态，避免历史提交记录影响测试。
 - 命令：`Remove-Item .submitted_tasks.txt -ErrorAction SilentlyContinue`
