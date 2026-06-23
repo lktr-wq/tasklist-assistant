@@ -1,0 +1,3 @@
+.submitted_tasks.txt
+__pycache__/
+*.py[cod]
